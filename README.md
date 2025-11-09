@@ -1,12 +1,50 @@
-https://jsonplaceholder.typicode.com/photos
+# Welcome to your Expo app 👋
 
-1. Fetch the data from above API with get method
-2. List out data on page in cards format
-3. Include Image, Id, Album Id,title and one toggle button
-4. By default toggle button should be enabled
-5. On disabling the toggle button next time whenever i open the app don’t show toggled off cards means if i toggle of some cards for ex. id no.1 card is disabled it should be there till app is open but when i kill the app next time whenever i open the app that card should not be visible [Note: check albumId and id both as there is same ids]
-6. Implement one search box that will search by title and make sure it won’t take much time to find result
-7. Show disabled data on another screen
-8. Create branch on your name and todays date like raju_14-apr-24 and push on that branch 
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Make Sure App Won't Lag And Hang
+## Get started
+
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
